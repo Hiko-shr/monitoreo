@@ -44,7 +44,7 @@ public class MonitoreoService {
         System.out.println("=============================================");
 
         estado.put("Servicio autenticación (Spaces)", verificarRuta("Spaces (8081)", "http://localhost:8081/api/v1/usuarios"));
-        estado.put("Servicio catalogo (Catalogo)", verificarRuta("Catalogo (8082)", "http://localhost:8082/api/v1/catalogo/libros"));
+        estado.put("Servicio catalogo (Catalogo)", verificarRuta("Catalogo (8095)", "http://localhost:8082/api/v1/catalogo/libros"));
         estado.put("Servicio inventario (Inventario)", verificarRuta("Inventario (8083)", "http://localhost:8083/api/v1/libros"));
         estado.put("Servicio ingreso producto (Ingreso_producto)", verificarRuta("Ingreso Producto (8084)", "http://localhost:8084/api/v1/ingresos"));
         estado.put("Servicio venta (Venta)", verificarRuta("Venta (8085)", "http://localhost:8085/api/v1/ventas"));
